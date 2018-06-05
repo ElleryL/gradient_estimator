@@ -10,7 +10,9 @@ However, we might encounter some challenges
 (3) Discrete random variable (can't use reparameterization trick directly) 
 (4) Expected Function un-differentiable
 
-In this project, we aim to solve all of above troubles by introduce RELAX estimator
+In this project, we aim to solve all of above troubles by introduce RELAX estimator.
+
+Please see PPT for details of the algorithm
 
 
 Reference:  "Backpropagation through the Void: Optimizing control variates for black-box gradient estimation"
