@@ -210,9 +210,9 @@ if __name__== "__main__":
     #target = 0.55 # both rebar and relax successfully complete the task but reLAX converges much faster
     target = 0.501 # rebar becomes just guessing but reLAX works perfect
     # target = 0.499 # rebar sometime works sometimes fail (based on seed) but reLAX works all times
-    torch.manual_seed(14)
-    random.seed(14)
-    np.random.seed(14)
+    torch.manual_seed(4)
+    random.seed(4)
+    np.random.seed(4)
 
     theta_curve, obj_loss, variances, lax_curve, reBar_variances, reBar_obj_loss = train_Est(target, 10000, 1, 1, 0.01)
     plt.plot(obj_loss,label="reLAX")
