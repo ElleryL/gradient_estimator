@@ -229,15 +229,3 @@ if __name__== "__main__":
     plt.show()
     print(theta_curve[-1])
 
-
-    # der_shape = torch.ones(f_z.size())
-    # f_z.backward(der_shape,retain_graph=True,create_graph=True)
-    # d_CV_z = phi.grad.clone()
-    # phi.grad.data.zero_()
-
-    # f_z_tilde.backward(der_shape,retain_graph=True,create_graph=True)
-    # d_CV_z_tilde = phi.grad.clone()
-    # phi.grad.data.zero_()
-    # plt.plot(theta_curve,label="theta curve")
-    # plt.legend()
-    # plt.show()
